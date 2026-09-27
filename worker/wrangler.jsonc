@@ -1,0 +1,9 @@
+{
+  "name": "tg-mail-bot",
+  "main": "index.js",
+  "compatibility_date": "2026-09-01",
+  "workers_dev": false,
+  "vars": { "HOMELAB_URL": "https://tg-mail-bot.simeonevilardo.com/inbound" },
+  "observability": { "enabled": true }
+  // secret: SECRET (= INBOUND_SECRET del .env), con `npx wrangler secret put SECRET`
+}
